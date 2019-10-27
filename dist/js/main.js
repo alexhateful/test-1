@@ -296,7 +296,7 @@ function scanImages() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\study\test-1\src\js\main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! D:\front-end\git\test\src\js\main.js */"./src/js/main.js");
 
 
 /***/ })

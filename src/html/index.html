@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>d</title>
+    <title>fffffff</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/material-icons.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,14 +14,14 @@
 
 <body>
     <header>
-        <div class="section" data-vide-bg="mp4: ./video/video-bg, webm: poster: ./video/video-bg"
-            data-vide-options="posterType: jpg, loop: true, muted: true, position: 0% 0%">
+        <div class="section" data-vide-bg="mp4: ./video/video-bg, webm: poster: ./video/video-bg" data-vide-options="posterType: jpg, loop: true, muted: true, position: 0% 0%">
             <div class="container-fluid ">
                 <div class="header__container">
                     <div class="nav d-flex align-items-center justify-content-between">
                         <div class="header__logo logo">
                             <a href="" class="logo__link">colorful
-                                <span class="logo__link logo__link--flat">flat</span></a>
+                                <span class="logo__link logo__link--flat">flat</span>
+                            </a>
                         </div>
                         <div class="header__nav d-flex">
 
@@ -33,17 +33,23 @@
                                 </label>
                                 <ul class="nav__list list d-flex justify-content-center aline-items-center">
                                     <li class="nav__item">
-                                        <a href="" class="nav__link nav__link--active">Home</a></li>
+                                        <a href="" class="nav__link nav__link--active">Home</a>
+                                    </li>
                                     <li class="nav__item">
-                                        <a href="" class="nav__link">About</a></li>
+                                        <a href="" class="nav__link">About</a>
+                                    </li>
                                     <li class="nav__item">
-                                        <a href="" class="nav__link">Our Team</a></li>
+                                        <a href="" class="nav__link">Our Team</a>
+                                    </li>
                                     <li class="nav__item">
-                                        <a href="" class="nav__link"> FAQ</a></li>
+                                        <a href="" class="nav__link"> FAQ</a>
+                                    </li>
                                     <li class="nav__item">
-                                        <a href="" class="nav__link">Blog</a></li>
+                                        <a href="" class="nav__link">Blog</a>
+                                    </li>
                                     <li class="nav__item">
-                                        <a href="" class="nav__link">Partners</a></li>
+                                        <a href="" class="nav__link">Partners</a>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -60,11 +66,9 @@
                         <div class="offset-4 col-4 offset-4">
                             <form action="#" method="get">
                                 <div class="form__field">
-                                    <input required type="text" placeholder="Full name"
-                                        class="form__input form__input --focus" name="Name">
+                                    <input required type="text" placeholder="Full name" class="form__input form__input --focus" name="Name">
                                     <input required type="email" placeholder="E-mail" class="form__input " name="email">
-                                    <input type="text" placeholder="Phone" data-mask="+38 (000)-000-00-00"
-                                        class="form__input" name="tel" minlength="19">
+                                    <input type="text" placeholder="Phone" data-mask="+38 (000)-000-00-00" class="form__input" name="tel" minlength="19">
                                     <button class="form__input form__input--active">GET STARTED NOW!</button>
                                 </div>
                             </form>
@@ -272,44 +276,164 @@
                 <div class="container">
                     <h2 class="base__title d-flex justify-content-center">FAQS</h2>
                     <div class="row">
+
                         <div class="col-4">
-                            <div class="faqs__plate">
-                                <p class="faqs__title">Tempor incididunt</p>
-                                <p class="faqs__tex">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt.</p>
-                                <p class="faqs__title">Eiusmod tempor</p>
-                                <p class="faqs__tex"></p>
-                                <p class="faqs__title">Incididunt ut labore</p>
-                                <p class="faqs__tex"></p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Tempor incididunt
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Eiusmod tempor
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Incididunt ut labore
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
+
+
                         <div class="col-4">
-                            <div class="faqs__plate">
-                                <p class="faqs__title">Esse cillum</p>
-                                <p class="faqs__tex"></p>
-                                <p class="faqs__title">Dolore eu fugiat</p>
-                                <p class="faqs__tex"></p>
-                                <p class="faqs__title">Bulla pariatu</p>
-                                <p class="faqs__tex"></p>
+                            <div class="accordion" id="accordionTwo">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Tempor incididunt
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Eiusmod tempor
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Incididunt ut labore
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
                         <div class="col-4">
-                            <div class="faqs__plate">
-                                <p class="faqs__title">Eiusmod tempor</p>
-                                <p class="faqs__tex"></p>
-                                <p class="faqs__title">Incididunt ut labore</p>
-                                <p class="faqs__tex"></p>
-                                <p class="faqs__title">Esse cillum</p>
-                                <p class="faqs__tex"></p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Tempor incididunt
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Eiusmod tempor
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Incididunt ut labore
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt. </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
             <section class="how-work">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6"><a href=""><img src="" alt=""></a></div>
+                        <div class="col-6">
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                        </div>
                         <div class="col-6">
                             <h2 class="base__title d-flex justify-content-center">How Its Work</h2>
                             <h3>Lorem ipsum dolor sit amet, cetero temporibus ex nec. Et facilisis definiebas est.</h3>
