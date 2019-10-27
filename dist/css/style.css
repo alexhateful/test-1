@@ -5587,6 +5587,10 @@ a {
   padding-bottom: 91px;
 }
 
+.map {
+  min-height: 500px;
+}
+
 .nav {
   padding: 50px 78px 52px 78px;
   /* &__link:hover:after {
