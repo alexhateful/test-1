@@ -1,0 +1,50 @@
+.faqs {
+    padding-top: 124px;
+    padding-bottom: 64px;
+    background-image: url(../img/bg6.png);
+    background-position: top center;
+    background-size: cover;
+
+    &__title {
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 46px;
+        border-radius: 4px;
+        display: flex;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 15px;
+
+    }
+
+    &__text {
+        color: rgba(255, 255, 255, 0.801);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        background-color: #dd3c30;
+        box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+    }
+
+    &__card {
+        background-color: #ff4538;
+        box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+
+    &__title:hover {
+        background-color: #dd3c30;
+        box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        color: white;
+
+    }
+
+}
+
+.card-header {
+    padding: 0;
+}
