@@ -1,0 +1,84 @@
+.section {
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrap-block {
+    margin-top: 500px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(../../bg.png);
+    background-position: top;
+}
+
+.base {
+    &__text {
+        opacity: 0.8;
+        color: #333;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: center;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    &__title {
+        color: #333;
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 60px;
+        padding-bottom: 28px;
+
+    }
+
+    &__text--about {
+        margin-bottom: 60px;
+    }
+
+    &__text--features {
+        margin-bottom: 43px;
+    }
+
+
+    &__text--advantages {
+        color: white;
+        padding-bottom: 62px;
+    }
+
+    &__title--advantages {
+        color: white;
+        padding-bottom: 31px;
+    }
+
+    &__title--team {
+        padding-bottom: 61px;
+    }
+}
+
+
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+}

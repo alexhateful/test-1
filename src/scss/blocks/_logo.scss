@@ -1,0 +1,17 @@
+.logo {
+    margin-top: 4px;
+
+    &__link {
+        color: white;
+        font-size: 62px;
+        line-height: 40px;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 0.009em;
+
+    }
+
+    &__link--flat {
+        font-weight: 300;
+    }
+}

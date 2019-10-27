@@ -1,0 +1,131 @@
+.nav {
+    padding: 50px 78px 52px 78px;
+
+
+
+    &__item {
+        margin-left: 69px;
+
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    &__link {
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 46px;
+    }
+
+    &__link:hover {
+        position: relative;
+    }
+
+    /* &__link:hover:after {
+        content: '';
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 3px;
+        background-color: #ff6033re;
+        bottom: 25px;
+
+    }*/
+
+
+    &__icon {
+        color: #262626;
+        font-size: 25px;
+    }
+
+    &__times {
+        color: #262626;
+        font-size: 25px;
+        z-index: 2;
+        position: relative;
+
+    }
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__checkbox:checked+.nav__burger>&__times {
+        display: block;
+    }
+
+    &__checkbox+.nav__burger>&__times {
+        display: none;
+    }
+
+    &__checkbox+.nav__burger>&__icon {
+        display: block;
+    }
+
+    &__checkbox:checked+.nav__burger>&__icon {
+        display: none;
+    }
+
+
+
+    @media screen and (max-width: 767px) {
+        .nav__list {
+            // display: none;
+            overflow: hidden;
+            z-index: 1;
+            padding-top: 0;
+            height: 0;
+            transition: ease .3s;
+            background-color: #ff6033;
+            border: 0.4px solid #262626;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border: none;
+        }
+
+        .nav__checkbox:checked+.nav__burger+&__list {
+            display: block;
+            padding-top: 115px;
+            height: 331px;
+
+
+        }
+
+        .nav__item {
+            margin: 0;
+            border: 0.4px solid #262626;
+
+
+        }
+
+        .nav__link {
+            color: #262626;
+            line-height: 34px;
+            display: flex;
+            justify-content: center;
+
+
+
+        }
+
+        /*.header__logo {
+            position: relative;
+
+
+        }
+
+        /*transition: 0.2s;
+        */
+    }
+
+}

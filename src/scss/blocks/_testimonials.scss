@@ -1,0 +1,27 @@
+.testimonials {
+    /*background-image: url(../../../dist/img/bg5.png);
+    background-position: top center;
+    background-size: cover;*/
+    background-color: rgba(29, 87, 11, 0.329);
+    padding-top: 120px;
+    padding-bottom: 421px;
+
+    &__title {
+        opacity: 0.8;
+        color: #333;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+
+    }
+
+    &__text {
+        color: #5dbdfe;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
