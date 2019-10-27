@@ -1,0 +1,47 @@
+// @import "normalize";
+@import "variables";
+@import "mixins";
+@import "base";
+@import "fonts";
+
+// TODO: include third-party styles
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "../../node_modules/bootstrap/scss/vendor/rfs";
+@import "../../node_modules/bootstrap/scss/mixins/hover";
+@import "../../node_modules/bootstrap/scss/mixins/border-radius";
+@import "../../node_modules/bootstrap/scss/mixins/clearfix";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/transition";
+@import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/mixins/gradients";
+@import "../../node_modules/bootstrap/scss/mixins/box-shadow";
+@import "../../node_modules/bootstrap/scss/mixins/buttons";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/carousel";
+// @import "../../node_modules/bootstrap/scss/reboot";
+@import "../blocks/common/page/page.scss";
+
+// TODO: include other block styles
+@import "../blocks/block";
+@import "../blocks/base";
+@import "../blocks/about";
+@import "../blocks/advantages";
+@import "../blocks/blog";
+@import "../blocks/contact";
+@import "../blocks/faqs";
+@import "../blocks/features";
+@import "../blocks/footer";
+@import "../blocks/how-work";
+@import "../blocks/map";
+@import "../blocks/nav";
+@import "../blocks/partners";
+@import "../blocks/portfolio";
+@import "../blocks/team";
+@import "../blocks/testimonials";
+@import "../blocks/logo";
+@import "../blocks/header";
+@import "../blocks/form";
