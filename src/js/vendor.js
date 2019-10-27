@@ -1,3 +1,4 @@
+import 'google-maps';
 import jQuery from 'jquery';
 import 'vide';
 import 'bootstrap/js/src/collapse';
