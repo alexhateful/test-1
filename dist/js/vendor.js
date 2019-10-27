@@ -12707,7 +12707,7 @@ window.$ = window.jQuery = jquery__WEBPACK_IMPORTED_MODULE_1___default.a; // Man
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\study\test-1\src\js\vendor.js */"./src/js/vendor.js");
+module.exports = __webpack_require__(/*! C:\Users\Максим\Desktop\test-1\src\js\vendor.js */"./src/js/vendor.js");
 
 
 /***/ })
