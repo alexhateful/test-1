@@ -5442,7 +5442,7 @@ input[type="button"].btn-block {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url(../../bg.png);
+  background-image: url(../img/bg.png);
   background-position: top;
 }
 
@@ -5485,6 +5485,18 @@ body {
 
 .base__title--team {
   padding-bottom: 61px;
+}
+
+.base__title--faqs {
+  padding-bottom: 60px;
+}
+
+.base__title--blog {
+  padding-bottom: 33px;
+}
+
+.base__text--blog {
+  padding-bottom: 58px;
 }
 
 .container-fluid {
@@ -5563,6 +5575,76 @@ a {
   left: 46%;
 }
 
+.blog {
+  padding-top: 114px;
+  padding-bottom: 128px;
+}
+
+.blog__img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.blog__text {
+  position: absolute;
+  bottom: 13%;
+  padding-right: inherit;
+}
+
+.faqs {
+  padding-top: 124px;
+  padding-bottom: 64px;
+  background-image: url(../img/bg6.png);
+  background-position: top center;
+  background-size: cover;
+}
+
+.faqs__title {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 46px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.faqs__text {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  background-color: #dd3c30;
+  box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.faqs__card {
+  background-color: #ff4538;
+  box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.faqs__title:hover {
+  background-color: #dd3c30;
+  box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: white;
+}
+
+.card-header {
+  padding: 0;
+}
+
 .features {
   background-color: rgba(0, 4, 255, 0.308);
   /* background-image: url(../../../dist/img/bg3.png);
@@ -5585,6 +5667,33 @@ a {
   font-weight: 400;
   line-height: 34px;
   padding-bottom: 91px;
+}
+
+.how-work {
+  padding-top: 122px;
+  padding-bottom: 123px;
+  background-color: white;
+}
+
+.how-work__img {
+  width: 100%;
+}
+
+.how-work__subtitle {
+  color: #5dbdfe;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  padding-top: 2px;
+  padding-bottom: 13px;
+}
+
+.how-work__text {
+  opacity: 0.8;
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
 }
 
 .map {
@@ -5705,6 +5814,15 @@ a {
     -webkit-box-pack: center;
             justify-content: center;
   }
+}
+
+.partners {
+  padding-top: 116px;
+  /*padding-bottom: 120px;*/
+}
+
+.portfolio__img {
+  max-width: 100%;
 }
 
 .team {
