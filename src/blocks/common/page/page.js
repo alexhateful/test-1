@@ -3,6 +3,7 @@
  */
 
 import LazyLoader from '../../../js/utils/lazy-loader';
+import map from '../../map';
 
 // TODO: import other blocks
 
@@ -83,6 +84,7 @@ function initBlock() {
     LazyLoader.init();
 
     // TODO: initialize other blocks
+    map.initBlock();
 
     // Process the initial window size and scroll position
     handleWindowResize();

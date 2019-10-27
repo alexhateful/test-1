@@ -64,6 +64,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "google-maps": "^3.3.0",
     "jquery": "^3.4.0",
     "slick-carousel": "^1.8.1",
     "svg4everybody": "^2.1.9",
